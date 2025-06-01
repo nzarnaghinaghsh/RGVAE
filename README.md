@@ -1,13 +1,13 @@
 DOI 10.5281/zenodo.15569206
 
-RNA Grammar Variational Autoencoder
+**RNA Grammar Variational Autoencoder**
 
 The codes in this repository are provided for the generation and optimization of RNA sequences for different optimization critera. 
 
 The required packages are provided in the requirements.txt file. The packages are compatible with Python 3.6.6.
 
 
-Creating datasets:
+**Creating datasets:**
 
 python make_RNA_dataset_grammar_py3.py
 
@@ -15,11 +15,11 @@ Training:
 
 python train_RNA.py
 
-Sampling:
+**Sampling:**
 
 python encode_decode_RNA.py
 
-Bayesian optimization:
+**Bayesian optimization:**
 
 By going to the folder Theano-master, the modified version of theano could be insalled by typing
 
